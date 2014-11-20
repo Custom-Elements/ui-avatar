@@ -1,0 +1,11 @@
+<link rel="import" href="../node_modules/ui-tooltip/src/ui-tooltip.html">
+<polymer-element name="ui-avatar" attributes="name">
+<template>
+  <link rel="stylesheet" type="text/css" href="./ui-avatar.less">
+  <ui-tooltip>
+    <span id="initials"><span id="text"></span></span>
+    <span tip>{{name}}</span>
+  </ui-tooltip>
+</template>
+<script src="./ui-avatar.litcoffee"></script>
+</polymer-element>
