@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "dependencies": {
     "polymer-serve": "^0.0.30",
-    "polymer": "git://github.com/custom-elements/polymer#master",
-    "ui-styles": "git://github.com/custom-elements/ui-styles#master",
-    "ui-tooltip": "git://github.com/custom-elements/ui-tooltip#master"
+    "polymer": "git+https://github.com/custom-elements/polymer#master",
+    "ui-styles": "git+https://github.com/custom-elements/ui-styles#master",
+    "ui-tooltip": "git+https://github.com/custom-elements/ui-tooltip#master"
   },
   "license": "ISC",
   "scripts": {
